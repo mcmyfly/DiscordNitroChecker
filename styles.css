@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #004080; /* Açık mavi rengi */
+    color: #fff; /* Yazı rengini beyaz yapalım */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #333; /* Siyah ile gri arası bir ton */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #fff; /* Başlık yazısını beyaz yapalım */
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff; /* Etiket yazısını beyaz yapalım */
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px; /* Yumuşak bir görünüm için padding değerini arttıralım */
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Kenarlık ekleyelim */
+    border-radius: 4px; /* Köşeleri yumuşatmak için border-radius ekleyelim */
+}
+
+.login-container button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
